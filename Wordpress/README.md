@@ -82,12 +82,14 @@ services:
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - /mnt/wordpress:/var/www/html
-      ```
-#Despliegue
+```
+
+##Despliegue
 ```bash
     docker-compose up -d
-    ```
-Esto creará y ejecutará los contenedores necesarios para WordPress. Una vez que el contenedor esté en funcionamiento, podrás acceder a WordPress a través del navegador web utilizando la dirección IP del host y el puerto 80.
+ ```
+
+El anterior comando va crear e iniciar los contenedores para el wordpress.Accede al navegador con la ip publica de la instancia y el puerto 80 para visualizar el sitio.
 
 Crear otra instancia con las mismas intrucciones de configuración.
 
