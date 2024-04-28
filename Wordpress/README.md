@@ -82,7 +82,7 @@ services:
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - /mnt/wordpress:/var/www/html
-
+```
 
 #Despliegue
 ```bash
