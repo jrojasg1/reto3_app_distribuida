@@ -1,6 +1,6 @@
 # Configuración
 
-Este repositorio contiene la configuración necesaria para la implementación de NFS en VM Ubuntu 22.04.
+Este repositorio contiene la configuración necesaria para la implementación de NFS en una VM Ubuntu 22.04.
 
 ## Especificaciones
 

@@ -1,6 +1,6 @@
 # Configuración
 
-Este repositorio contiene la configuración necesaria para la implementación de Wordpress con Docker en VM Ubuntu 22.04.
+Este repositorio contiene la configuración necesaria para la implementación de Wordpress con Docker en una VM Ubuntu 22.04.
 
 ## Especificaciones
 
@@ -82,8 +82,7 @@ services:
       WORDPRESS_DB_NAME: exampledb
     volumes:
       - /mnt/wordpress:/var/www/html
-
-
+      ```
 #Despliegue
 ```bash
     docker-compose up -d
