@@ -154,7 +154,7 @@ Crea el archivo de Docker Compose en el directorio loadbalancer:
 ```bash
 nano loadbalancer/docker-compose.yml
 ```
-agrega estás instrucciones
+agrega estas instrucciones
 
 ```yaml
    version: "3.1"
