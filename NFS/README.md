@@ -4,13 +4,12 @@ Este repositorio contiene la configuración necesaria para la implementación de
 
 ## Especificaciones
 
-- **AMI**: Se requiere una instancia basada en Ubuntu Server 20.04 LTS.
-- **Key Pair**: Utiliza la misma clave PEM que se empleó en el desafío 3.
-- **VPC**: Asegúrate de tener una VPC creada previamente, como se especificó en el desafío 3.
-- **Subnet**: Configura una Subnet privada para la instancia.
+- **AMI**: Se requiere una instancia basada en Ubuntu Server 22.04 LTS.
+- **Key Pair**: Utiliza la misma clave PEM que se empleó en el reto 3.
+- **VPC**: VPC por defecto que aparece en la configuración.
 - **Puertos**: Abre el puerto 22 para SSH y el puerto 2049 para NFS en la configuración de seguridad.
 
-# Paso a PAso de la Configuración
+# Paso a Paso de la Configuración
 
 Para establecer el entorno necesario, sigue estos pasos:
 
